@@ -3,6 +3,24 @@ body {
   font-size: 10;
 }
 
+.header-info {
+  border-bottom: 1px rgba(000, 000, 228, 0.1) solid;
+  background: rgba(000, 000, 127, 0.02);
+  font-size: 0.8em;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgba(000, 000, 228, 0.7);
+}
+
+.breadcrumb {
+  border-bottom: 1px rgba(000, 000, 228, 0.1) solid;
+  background: rgba(000, 000, 127, 0.02);
+  font-size: 0.8em;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgba(000, 000, 228, 0.7);
+}
+
 .box {
   background: #444;
   height: 50px;
@@ -12,7 +30,7 @@ body {
 .list-header {
   z-index: 3;
   top: 0;
-  background: rgb(000, 000, 228);
+  background: rgba(000, 000, 228, 0.9);
   width: 100%;;
   height: 30px;
   display: inline-block;
